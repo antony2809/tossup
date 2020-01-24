@@ -1,0 +1,28 @@
+{
+  "npmScope": "tossup",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "tossup": {
+      "tags": []
+    },
+    "tossup-e2e": {
+      "tags": [],
+      "implicitDependencies": ["tossup"]
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    }
+  }
+}
