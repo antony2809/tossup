@@ -13,6 +13,7 @@ export class Draw {
   name!: string;
   description!: string;
   participations: User[];
+  spots:number;
   winner!: User;
-  status!: 'open' | 'closed' | 'done' | 'canceled';
+  status!: 'open' | 'closed' | 'completed' | 'canceled';
 }

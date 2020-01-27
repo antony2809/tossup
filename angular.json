@@ -22,7 +22,7 @@
               "apps/tossup/src/assets"
             ],
             "styles": [
-              "apps/tossup/src/styles.css"
+              "apps/tossup/src/tailwind.css"
             ],
             "scripts": []
           },
